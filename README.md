@@ -1,6 +1,6 @@
 # Book Search Engine
 1. github: https://github.com/eisforgene/book-search-engine
-2. deployment: https://book-search-engine183.herokuapp.com/
+2. deployment: https://book-search-eng3.herokuapp.com/
 
 ## Description:
 The challenge was to take a fully function Google Books API search engine with a RESTful API and refactor it to be a GraphQL API built with the Apollo Server. The app was built using the MERN stack, with a React front end, MongoDB and Node.js/Express.js server and API.
