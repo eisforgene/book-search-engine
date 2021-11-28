@@ -14,7 +14,7 @@ const SavedBooks = () => {
   console.log(useQuery(GET_ME));
 
   const userData = data?.me || {};
-
+  console.log(userData);
   const handleDeleteBook = async (bookId) => {
     const token = Auth.loggedIn() ? Auth.getToken() : null;
 
@@ -37,7 +37,7 @@ const SavedBooks = () => {
   if (loading) {
     return <h2>LOADING...</h2>;
   }
-
+  
   return (
     <>
       <Jumbotron fluid className='text-light bg-dark'>
