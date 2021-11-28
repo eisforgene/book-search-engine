@@ -50,7 +50,6 @@ const SearchBooks = () => {
       }));
 
       setSearchedBooks(bookData);
-      console.log(bookData);
       setSearchInput('');
     } catch (err) {
       console.error(err);
